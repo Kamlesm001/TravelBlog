@@ -1,0 +1,85 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tourism Portfolio | Kamlesh More</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Poppins', sans-serif; }
+    body { background: #f5f7fa; color: #333; }
+    header { background: linear-gradient(135deg, #0f2027, #203a43, #2c5364); color: #fff; padding: 60px 20px; text-align: center; }
+    header h1 { font-size: 2.5rem; }
+    header p { margin-top: 10px; font-size: 1.1rem; }
+    nav { background: #111; padding: 12px; text-align: center; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: 500; }
+    nav a:hover { color: #00c6ff; }
+    section { padding: 60px 10%; }
+    h2 { text-align: center; margin-bottom: 40px; font-size: 2rem; color: #203a43; }
+    .about p { max-width: 800px; margin: auto; text-align: center; }
+    .skills, .services, .destinations { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 20px; }
+    .card { background: #fff; padding: 25px; border-radius: 12px; box-shadow: 0 8px 20px rgba(0,0,0,0.08); text-align: center; }
+    .card h3 { margin-bottom: 10px; color: #2c5364; }
+    .gallery { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 15px; }
+    .gallery img { width: 100%; border-radius: 10px; }
+    .contact { text-align: center; }
+    .contact a { display: inline-block; margin: 10px; padding: 12px 25px; background: #203a43; color: #fff; border-radius: 25px; text-decoration: none; }
+    footer { background: #111; color: #aaa; text-align: center; padding: 20px; margin-top: 40px; }
+  </style>
+</head>
+<body><header>
+  <h1>Tourism Portfolio</h1>
+  <p>Exploring Destinations | Creating Travel Experiences</p>
+</header><nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#destinations">Destinations</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav><section id="about" class="about">
+  <h2>About Me</h2>
+  <p>
+    I am a passionate tourism enthusiast with strong knowledge of destination planning,
+    budget travel, and customer experience. I aim to create memorable and affordable travel
+    experiences for individuals and groups.
+  </p>
+</section><section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="card"><h3>Tour Planning</h3><p>Customized itineraries for all budgets</p></div>
+    <div class="card"><h3>Budget Travel</h3><p>Cost-effective travel solutions</p></div>
+    <div class="card"><h3>Customer Service</h3><p>Client satisfaction & support</p></div>
+    <div class="card"><h3>Destination Knowledge</h3><p>India-focused tourism expertise</p></div>
+  </div>
+</section><section id="destinations">
+  <h2>Popular Destinations</h2>
+  <div class="destinations">
+    <div class="card"><h3>Goa</h3><p>Beaches • Nightlife • Culture</p></div>
+    <div class="card"><h3>Manali</h3><p>Mountains • Adventure • Snow</p></div>
+    <div class="card"><h3>Jaipur</h3><p>Heritage • Forts • History</p></div>
+    <div class="card"><h3>Kerala</h3><p>Backwaters • Nature • Ayurveda</p></div>
+  </div>
+</section><section id="services">
+  <h2>Services</h2>
+  <div class="services">
+    <div class="card"><h3>Travel Consultation</h3></div>
+    <div class="card"><h3>Group Tour Planning</h3></div>
+    <div class="card"><h3>Budget Itinerary Design</h3></div>
+    <div class="card"><h3>Hotel & Transport Guidance</h3></div>
+  </div>
+</section><section id="gallery">
+  <h2>Travel Gallery</h2>
+  <div class="gallery">
+    <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e" alt="Beach">
+    <img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470" alt="Mountains">
+    <img src="https://images.unsplash.com/photo-1524492412937-b28074a5d7da" alt="Heritage">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Nature">
+  </div>
+</section><section id="contact" class="contact">
+  <h2>Contact Me</h2>
+  <a href="mailto:kamleshmore306@gmail.com">Email Me</a>
+  <a href="tel:+91XXXXXXXXXX">Call Me</a>
+</section><footer>
+  <p>© 2025 Tourism Portfolio | Designed by Kamlesh More</p>
+</footer></body>
+</html>
